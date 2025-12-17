@@ -1,0 +1,41 @@
+{
+  "easy": {
+    "alpha": 0.001,
+    "gamma": 0.95,
+    "epsilon": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.996,
+    "batch_size": 64,
+    "memory_capacity": 15000,
+    "learning_rate": 0.001,
+    "update_target_every": 50,
+    "max_steps_per_episode": 500,
+    "episodes": 1500
+  },
+  "medium": {
+    "alpha": 0.0005,
+    "gamma": 0.97,
+    "epsilon": 1.0,
+    "epsilon_min": 0.03,
+    "epsilon_decay": 0.9975,
+    "batch_size": 128,
+    "memory_capacity": 50000,
+    "learning_rate": 0.0005,
+    "update_target_every": 100,
+    "max_steps_per_episode": 1500,
+    "episodes": 3000
+  },
+  "hard": {
+    "alpha": 0.0002,
+    "gamma": 0.99,
+    "epsilon": 1.0,
+    "epsilon_min": 0.02,
+    "epsilon_decay": 0.9990,
+    "batch_size": 256,
+    "memory_capacity": 100000,
+    "learning_rate": 0.0002,
+    "update_target_every": 150,
+    "max_steps_per_episode": 3000,
+    "episodes": 5000
+  }
+}

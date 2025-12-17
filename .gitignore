@@ -1,0 +1,69 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Dec 18 00:07:53 2025
+
+@author: arka8
+"""
+
+# Treasure Hunt RL Project - Specific .gitignore
+
+# Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific generated files
+results/__pycache__/
+*.log
+debug.log
+training_log.txt
+
+# Large data files (generated during runs)
+results/*.pkl
+results/*.pickle
+results/*.npy
+results/*.npz
+results/large_*.json
+results/temp/
+results/runs/
+
+# Model checkpoints (if generated)
+models/checkpoints/
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# PyGame cache (if any)
+pygame_cache/
+
+# Screenshots (if automatically generated)
+screenshots/
+captures/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# OS specific
+Thumbs.db
+Desktop.ini
+.DS_Store

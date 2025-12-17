@@ -1,0 +1,28 @@
+# ==========================
+# Treasure Hunt RL Project
+# Requirements File
+# ==========================
+
+# Core Python version: 3.9+ recommended
+
+# --- Environment & Simulation ---
+gymnasium==0.29.1
+pygame==2.6.0
+numpy==1.26.4
+
+# --- Reinforcement Learning & Utilities ---
+matplotlib==3.9.2
+pandas==2.2.2
+
+# --- Analysis & Visualization ---
+notebook==7.1.2
+seaborn==0.13.2
+
+# --- Optional Logging/Debugging Tools ---
+tqdm==4.66.4
+
+# --- JSON, File & Config Management ---
+jsonschema==4.22.0
+
+# --- Misc ---
+typing-extensions>=4.8.0

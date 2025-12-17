@@ -1,0 +1,55 @@
+======================================================================
+         DQN TRAINING SUMMARY REPORT
+======================================================================
+
+Date: 2025-12-17 19:49:00
+Levels Analyzed: Easy, Hard, Medium
+Total Episodes: 3000
+
+----------------------------------------------------------------------
+PERFORMANCE STATISTICS BY LEVEL
+----------------------------------------------------------------------
+
+EASY LEVEL (500 episodes):
+----------------------------------------
+Average Reward:
+  Mean ± Std: 588.91 ± 82.30
+  Best: 701.74 (Episode 21)
+  Range: -12.03 to 701.74
+
+Average Treasures:
+  Mean ± Std: 2.94 ± 0.31
+  Best: 3.00 (Episode 3)
+  Range: 0.00 to 3.00
+
+Average Score:
+  Mean ± Std: 201.12 ± 45.69
+  Best: 230.00 (Episode 4)
+  Range: -50.00 to 230.00
+
+Average Steps:
+  Mean ± Std: 36.72 ± 13.68
+  Best: 158.00 (Episode 10)
+  Range: 20.00 to 158.00
+
+Average Duration:
+  Mean ± Std: 0.38 ± 0.14s
+  Best: 1.34s (Episode 14)
+  Range: 0.18 to 1.34s
+
+Average Walls Hit:
+  Mean ± Std: 2.77 ± 6.42
+  Best: 79.00 (Episode 10)
+  Range: 0.00 to 79.00
+
+Average Hint Accuracy:
+  Mean ± Std: 88.01 ± 9.17%
+  Best: 100.00% (Episode 54)
+  Range: 33.33 to 100.00%
+
+Average Explored Cells:
+  Mean ± Std: 19.46 ± 3.47
+  Best: 37.00 (Episode 3)
+  Range: 9.00 to 37.00
+
+LEARNING PROGRESS (First 50 vs Last 50 episodes):
