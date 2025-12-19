@@ -18,7 +18,6 @@
 # ============================================================
 
 from .base_agent import BaseAgent
-from .q_learning import QLearningAgent
 from .dqn_agent import DQNAgent
 
-__all__ = ["BaseAgent", "QLearningAgent", "DQNAgent"]
+__all__ = ["BaseAgent", "DQNAgent"]
